@@ -118,7 +118,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                   fontSize: 32,
                                 ),
                               ),
-                              
+
                               //Sizebox ->to give space in between
                               Icon(
                                 currentSky == 'Clouds' || currentSky == 'Rain'
@@ -166,7 +166,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                 // ),
 
                 SizedBox(
-                  height: 120,
+                  height: 125,
                   child: ListView.builder(
                     itemCount: 5,
                     scrollDirection: Axis.horizontal,
